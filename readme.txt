@@ -16,7 +16,7 @@ If the theme you are using does not have any predefined import files, then you w
 
 This plugin is using the improved WP import that you can find here: https://github.com/humanmade/WordPress-Importer.
 
-The best feature of this plugin is, that theme authors can define import files in their themes and so all you (the user of the theme) have to do is click on the "Import Demo Data" button.
+The best feature of this plugin is that theme authors can define import files in their themes and so all you (the user of the theme) have to do is click on the "Import Demo Data" button.
 
 **How do theme author define these files?** The answer is in the FAQ section.
 
@@ -134,7 +134,7 @@ This will greatly improve the time needed to import the content (images), but on
 
 = How to change the location, title and other parameters of the plugin page? =
 
-As a theme author you do not like the location of the "Import Demo Data" plugin page in *Appearance -> Import Demo Data*? You can change that with the filter below. Apart from the location, you can also change the title or the page/menu and some other parameters as well.
+As a theme author, you do not like the location of the "Import Demo Data" plugin page in *Appearance -> Import Demo Data*? You can change that with the filter below. Apart from the location, you can also change the title or the page/menu and some other parameters as well.
 
 `
 function ocdi_plugin_page_setup( $default_settings ) {
